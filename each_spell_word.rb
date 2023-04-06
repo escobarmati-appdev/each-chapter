@@ -16,6 +16,10 @@
 p "Enter a word for me to spell:"
 word = gets.chomp
 
-word.split("").each do |letter|
-  p letter.upcase
+letters = word.split("")
+
+letters.each do |letter|
+  
+  p letter
+
 end

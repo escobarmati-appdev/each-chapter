@@ -12,11 +12,13 @@
 
 p "Enter a list of words separated by spaces:"
 
-input = gets.chomp
-words = input.split(" ")
+user_word_list = gets.chomp
+words = user_word_list.split
 
-words.each do |word|
-  if word.length.even?
-    p word
+words.each do |list|
+  
+  if list.chars.count.even?
+    p list
+  else
   end
 end
